@@ -11,6 +11,9 @@ How to use the .py file :
 3. Keep all custom image data inside the working directory.
 4. Keep the requirement.txt file inside  the woking directory.
 5. After set the working directory and environment, run the .py script.
+6. Then run the script object_detection_by_maskrcnn_VGG_style_labels_original.py file to generate log .h5 files for each epochs. Due to the heavy weight it cannot be uploaded here.
+7. The log file will be created in the logs folder inside the working directory.
+8. Then any selected .h5 file has been used to test the model. Here 22.h5 file has been chosen to test the model.
 
 The link https://github.com/ahmedfgad/Mask-RCNN-TF2 of pre-trained Mask_RCNN_TF2 version 2.0 
 
